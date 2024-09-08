@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetarian Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Vegetarian Restaurant</h1>
+        <p>Explore our variety of vegetarian dishes: Vegan, Indian, Jain food.</p>
+    </header>
+
+    <section class="slider">
+        <div class="slide fade">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38" alt="Vegan Food">
+            <div class="caption">Vegan Food</div>
+        </div>
+        <div class="slide fade">
+            <img src="https://www.indianfoodsite.com/recipes/vegetarian/index_files/stacks-image-5698c47.jpg" alt="Indian Food">
+            <div class="caption">Indian Food</div>
+        </div>
+        <div class="slide fade">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkgE_sV-YXNb26fAhGGjSDGbI7DDlvJL95tA&s" alt="Jain Food">
+            <div class="caption">Jain Food</div>
+        </div>
+
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sayantan's Vegetarian Restaurant. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
